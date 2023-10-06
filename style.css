@@ -44,6 +44,26 @@ input {
   position: relative;
   height: 0;
 }
+@media screen and (min-width: 430px) {
+  input {
+    height: 120px;
+    width: 650px;
+    border-bottom: 5px solid orangered;
+    font-size: 40px;
+    padding: 20px !important;
+  }
+  :focus {
+    box-shadow: 0 0 8px white;
+    border: 5px solid orangered;
+  }
+  ul {
+    font-size: 40px;
+  }
+  li {
+    padding: 20px !important;
+  }
+}
+
 /* .search-container {
  
 }
@@ -57,3 +77,4 @@ ul li:hover {
 ul.has-suggestions {
 
 } */
+
