@@ -44,7 +44,7 @@ input {
   position: relative;
   height: 0;
 }
-@media screen and (min-width: 430px) {
+@media screen and (max-width: 1000px) {
   input {
     height: 120px;
     width: 650px;
