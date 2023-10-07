@@ -48,7 +48,7 @@ const boldInput = (fruit, inputVal) => {
 	let inputStart = 0;
 	for (let i = 0; i < fruit.length; i++) { 
 		let slice = fruit.slice(i,fruit.length);
-		if(slice.includes(inputVal)) inputStart = i;
+		if(slice.toLowerCase().includes(inputVal.toLowerCase())) inputStart = i;
 	};
 
 	//get the end of the input in the suggestion
